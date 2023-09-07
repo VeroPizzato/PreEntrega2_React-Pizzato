@@ -1,11 +1,17 @@
 /* HEADER */
 .container-fluid {
-    background-image: linear-gradient(to right, #2f2e2e, #474747);
+    background-image: linear-gradient(to right, #868484, #d5d1d1);     
     width: 100%;
     left: 0;
     top: 0;
     right: 0;
-    min-height: 15vh;
+}
+.navbar-brand{
+    margin-left: 25px;
+}
+
+.img-carrito{
+    margin-right: 25px;
 }
 
 .collapse {
@@ -14,8 +20,8 @@
 
 .nav-item a {
     text-decoration: none;
-    color: white !important;
-    font-size: 18px;
+    font-size: 20px;
+    margin: 25px;
 }
 
 .nav-item a:hover {
@@ -23,11 +29,4 @@
     background-color: transparent;
     font-weight: bold;
 }
- 
-.typo-menu {
-    font-family: "Roboto Slab", serif;
-}
 
-.dropdown-menu {
-    background-image: linear-gradient(to right, #2f2e2e, #474747);
-}

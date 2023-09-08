@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "nombre": "Nike Lunar Force 1",
+        "descripcion": "Desde el cuero repelente al agua hasta lo resistente de la suela, el Lunar Force 1 adapta el estilo del AF1 para que puedas mantener tu llama encendida cuando llega el mal tiempo. El herraje metálico de las agujetas y la lengüeta extendida brindan resistencia tipo bota de montaña, a la vez que el diseño de punta decorada con tachones de estrellas te da un look favorecedor.",
+        "categoria": "Hombre",
+        "imagen": "../img/productos/nike_lunar_force1.png",
+        "precio": 134.999,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "nombre": "Air Jordan 1 Mid SE",
+        "descripcion": "Confeccionado con cuero Premium, luce un esquema de colores actualizado para obtener una nueva versión de un favorito de todos los tiempos.",
+        "categoria": "Mujer",
+        "imagen": "../img/productos/air_jordan_1_mid_SE.png",
+        "precio": 99.999,
+        "stock": 0
+    }
+
+
+
+    
+]

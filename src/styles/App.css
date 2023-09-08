@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
 }
-=======
+
 /* HEADER */
 .container-fluid {
     background-image: linear-gradient(to right, #868484, #d5d1d1);     
@@ -35,5 +34,3 @@
     background-color: transparent;
     font-weight: bold;
 }
-
->>>>>>> b57b877a533cb6ad989b1dae4fa9ff2d1bf0fa36

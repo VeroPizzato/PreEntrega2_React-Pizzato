@@ -1,33 +1,4 @@
-/* HEADER */
-.container-fluid {
-    background-image: linear-gradient(to right, #2f2e2e, #474747);
-    width: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    min-height: 15vh;
-}
-
-.collapse {
-    flex-direction: row-reverse;
-}
-
-.nav-item a {
-    text-decoration: none;
-    color: white !important;
-    font-size: 18px;
-}
-
-.nav-item a:hover {
-    color: brown !important;
-    background-color: transparent;
-    font-weight: bold;
-}
- 
-.typo-menu {
-    font-family: "Roboto Slab", serif;
-}
-
-.dropdown-menu {
-    background-image: linear-gradient(to right, #2f2e2e, #474747);
+*{
+    padding: 0;
+    margin: 0;
 }

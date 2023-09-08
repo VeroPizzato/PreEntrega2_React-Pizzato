@@ -1,12 +1,12 @@
 import './styles/App.css'
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   const texto = "Proximamente Productos!!";
   return ( 
     <div className="contenedor">
-      <Navbar />
+      <Header />     
       <ItemListContainer greeting = {texto}/>     
     </div> 
   )

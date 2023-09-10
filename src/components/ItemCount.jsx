@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import '../styles/ItemCount.css'
 
 const ItemCount = ({stock}) => {
     const [itemsStock, setItemsStock]  = useState(stock);
@@ -33,9 +32,9 @@ const ItemCount = ({stock}) => {
             <div className="row">
                 <div className="col">
                     <div className="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" className="btn btn-light mx-3" onClick={onDecrease}>-</button>
-                        <button type="button" className="btn btn-light">{cant}</button>
-                        <button type="button" className="btn btn-light mx-3" onClick={onIncrease}>+</button>
+                        <button type="button" className="btn btn-light mx-2" onClick={onDecrease}>-</button>
+                        <button type="button" className="btn btn-light mx-2">{cant}</button>
+                        <button type="button" className="btn btn-light mx-2" onClick={onIncrease}>+</button>
                     </div>
                 </div>
             </div>

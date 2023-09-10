@@ -1,24 +1,146 @@
 [
     {
-        "id": 1,
+        "id": 1,       
         "nombre": "Nike Lunar Force 1",
         "descripcion": "Desde el cuero repelente al agua hasta lo resistente de la suela, el Lunar Force 1 adapta el estilo del AF1 para que puedas mantener tu llama encendida cuando llega el mal tiempo. El herraje metálico de las agujetas y la lengüeta extendida brindan resistencia tipo bota de montaña, a la vez que el diseño de punta decorada con tachones de estrellas te da un look favorecedor.",
-        "categoria": "Hombre",
-        "imagen": "../img/productos/nike_lunar_force1.png",
+        "categoria": "hombre",
+        "imagen": "../imgProductos/nike_lunar_force1.png",
         "precio": 134.999,
         "stock": 10
     },
     {
         "id": 2,
+        "nombre": "Air Jordan 1 Low",
+        "descripcion": "Inspirado en el original que se lanzó en 1985, el Air Jordan 1 Low ofrece un estilo clasico impecable que se resulta familiar, pero renovado. Con un diseño icónico que combina perfectamente con cualquier ajuste, este calzado garantiza que siempre estara a la moda.",
+        "categoria": "hombre",
+        "imagen": "../imgProductos/air_jordan_1_low.png",
+        "precio": 83.999,
+        "stock": 15
+    },
+    {
+        "id": 3,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "hombre",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },
+    {
+        "id": 4,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "hombre",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },   
+    {
+        "id": 5,
         "nombre": "Air Jordan 1 Mid SE",
         "descripcion": "Confeccionado con cuero Premium, luce un esquema de colores actualizado para obtener una nueva versión de un favorito de todos los tiempos.",
-        "categoria": "Mujer",
-        "imagen": "../img/productos/air_jordan_1_mid_SE.png",
+        "categoria": "mujer",
+        "imagen": "../imgProductos/air_jordan_1_mid_SE.png",
         "precio": 99.999,
+        "stock": 8
+    },  
+    {
+        "id": 6,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "mujer",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },
+    {
+        "id": 7,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "mujer",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },
+    {
+        "id": 8,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "mujer",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },   
+    {
+        "id": 9,
+        "nombre": "CR7",
+        "descripcion": "Buzo con Capucha de Futbol para Niño/a",
+        "categoria": "niños",
+        "imagen": "../imgProductos/buzo_cr7.png",
+        "precio": 38.999,
+        "stock": 3
+    },    
+    {
+        "id": 10,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "niños",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },
+    {
+        "id": 11,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "niños",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },
+    {
+        "id": 12,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "niños",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },   
+    {
+        "id":13,
+        "nombre": "Nike Brasilia",
+        "descripcion": "Mochila de Entrenamiento Unisex. Esta mochila tiene muchos compartimentos y bolsillos para transportar equipo desde el trabajo, el gimnasio o la escuela.",
+        "categoria": "accesorios",
+        "imagen": "../imgProductos/mochila_nike_brasilia.png",
+        "precio": 37.799,
+        "stock": 5
+    },
+    {
+        "id": 14,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "accesorios",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },
+    {
+        "id": 15,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "accesorios",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
+        "stock": 0
+    },
+    {
+        "id": 16,
+        "nombre": "",
+        "descripcion": "",
+        "categoria": "accesorios",
+        "imagen": "../imgProductos/    .png",
+        "precio": 0,
         "stock": 0
     }
-
-
-
-    
 ]

@@ -1,38 +1,51 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../styles/ItemCount.css'
 
 const ItemCount = ({stock}) => {
     const [itemsStock, setItemsStock]  = useState(stock);
-    const [cont, setCount] = useState(0);
+    const [cant, setCant] = useState(0);
 
-    function agregarAlCarrito() {
-        if (cont <= itemsStock){
-            setItemsStock(itemsStock - cont);
+    function onAdd() {
+        if (cant <= itemsStock){
+            setItemsStock(itemsStock - cant);
+            setCant(0); // reinicio el contador
         }
     }
     
     const onIncrease = () => {
-        if (cont < itemsStock){
-            setCount(cont + 1);
+        if (cant < itemsStock){
+            setCant(cant + 1);
         }       
     }
 
     const onDecrease = () => {
-        if (cont > 0){
-            setCount(cont - 1)
+        if (cant > 0){
+            setCant(cant - 1)
         }       
     }
 
-    return (
+    useEffect(() => {
+        setItemsStock(stock);
+    }, [stock]);
+
+    return ( 
         <div className="container">
-            <div className="contador">
-                <button id = "btnAgregar" onClick={onIncrease}>+</button>
-                <label id="cont-value">{cont}</label>
-                <button id = "btnSacar" onClick={onDecrease}>-</button>
+            <div className="row">
+                <div className="col">
+                    <div className="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" className="btn btn-light mx-3" onClick={onDecrease}>-</button>
+                        <button type="button" className="btn btn-light">{cant}</button>
+                        <button type="button" className="btn btn-light mx-3" onClick={onIncrease}>+</button>
+                    </div>
+                </div>
             </div>
-            <button id="agregarAlCarrito" onClick={() => agregarAlCarrito()}>Agregar al carrito</button>
-        </div>
-    );
+            <div className="row">
+                <div className="col">
+                    <button type="button" className="btn btn-secondary" onClick={() => onAdd()}>Agregar al carrito</button>
+                </div>
+            </div>
+        </div>        
+    )
 }
 
 export default ItemCount;

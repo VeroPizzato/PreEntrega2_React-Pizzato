@@ -12,8 +12,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<ItemListContainer />} />
             <Route exact path="/category/:nombreCategoria" element={<ItemListContainer />} />
-            <Route exact path="/item/:idItem" element={<ItemDetailContainer />} />
-            <Route exact path="/*" element={<h1>Error 404, la página no existe.</h1>}/>
+            <Route exact path="/item/:idItem" element={<ItemDetailContainer />} />            
           </Routes>          
         </BrowserRouter>
       </div> 

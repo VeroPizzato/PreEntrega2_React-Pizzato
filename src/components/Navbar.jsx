@@ -1,10 +1,10 @@
 import CartWidget from "./CartWidget"
 import Logo from "../img/logo.png"
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div>
+        <div>                     
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
@@ -13,16 +13,16 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link active typo-menu" aria-current="page" to="/category/notebook">Notebooks</Link>
+                                <NavLink className="nav-link typo-menu" to="/category/notebook">Notebooks</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link typo-menu" to="/category/gabinete">Gabinetes</Link>
+                                <NavLink className="nav-link typo-menu" to="/category/gabinete">Gabinetes</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link typo-menu" to="/category/monitor">Monitores</Link>
+                                <NavLink className="nav-link typo-menu" to="/category/monitor">Monitores</NavLink>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link typo-menu" to="/category/componente">Componentes</Link>
+                                <NavLink className="nav-link typo-menu" to="/category/componente">Componentes</NavLink>
                             </li>                                                      
                         </ul>
                     </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
                         <CartWidget />                        
                     </div>
                 </div>
-            </nav>
+            </nav>                             
         </div>
     )
 }

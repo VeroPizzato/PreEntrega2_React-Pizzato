@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 
-const ItemCount = ({stock}) => {
+const ItemCount = ({cantidadInicial, stock}) => {
     const [itemsStock, setItemsStock]  = useState(stock);
-    const [cant, setCant] = useState(0);
+    const [cant, setCant] = useState(cantidadInicial);
 
     function onAdd() {
         if (cant <= itemsStock){
@@ -29,6 +29,7 @@ const ItemCount = ({stock}) => {
 
     return ( 
         <div className="container">
+            <h5>Stock Disponible: {itemsStock}</h5> 
             <div className="row">
                 <div className="col">
                     <div className="btn-group" role="group" aria-label="Basic example">
@@ -40,7 +41,7 @@ const ItemCount = ({stock}) => {
             </div>
             <div className="row">
                 <div className="col">
-                    <button type="button" className="btn btn-secondary" onClick={() => onAdd()}>Agregar al carrito</button>
+                    <button type="button" className="btn btn-secondary btnDetalle" onClick={() => onAdd()}>Agregar al carrito</button>
                 </div>
             </div>
         </div>        

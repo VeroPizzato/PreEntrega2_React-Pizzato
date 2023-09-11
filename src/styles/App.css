@@ -34,3 +34,30 @@
     background-color: transparent;
     font-weight: bold;
 }
+
+.active{
+    color: brown !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btnDetalle:hover {
+    background-color: brown !important;     
+    font-weight: bold;  
+    font-size: 18px;
+}
+
+.snipper{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    
+}
+
+.nombreSnipper{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}

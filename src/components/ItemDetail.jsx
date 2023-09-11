@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ItemCount from "./ItemCount";
+import { Link } from "react-router-dom";
 
 const ItemDetail = ({producto}) => {
     const [item, setItem] = useState({});
@@ -10,7 +11,7 @@ const ItemDetail = ({producto}) => {
 
     return (      
         // col-md-5:2 columnas
-        <div className="container my-4">            
+        <div className="container my-4">         
             <div className="row align-items-center align-self-center">                
                 <div className="col-md-5 offset-md-1">                    
                     <img src={item.imagen} alt={item.nombre} className="img-fluid" />
@@ -18,10 +19,10 @@ const ItemDetail = ({producto}) => {
                 <div className="col-md-5">
                     <h1>{item.nombre}</h1>
                     <p>{item.descripcion}</p>
-                    <h3>${item.precio}</h3>                    
-                    <ItemCount stock={item.stock}  />                                      
+                    <h3>${item.precio}</h3>                                                                 
+                    <ItemCount cantidadInicial={0} stock={item.stock}/>                                      
                 </div>
-            </div>
+            </div>         
         </div>
     )        
 }

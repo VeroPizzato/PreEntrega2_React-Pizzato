@@ -7,8 +7,8 @@ const Item = ({ item }) => {
             <div className="card">                
                 <img src={item.imagen} className="card-img-top" alt={item.nombre} />
                 <div className="card-body">
-                    <h2 className="card-text text-center">{item.nombre}</h2>
-                    <h5 className="text-center">${item.precio}</h5>
+                    <h6 className="card-text text-center">{item.nombre}</h6>
+                    <h3 className="text-center">${item.precio}</h3>
                 </div>                
                 <Link to={"/item/" + item.id} className="btn btn-secondary text-decoration-none text-center">
                     Ver detalle

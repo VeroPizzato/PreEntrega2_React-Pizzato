@@ -73,7 +73,7 @@
     },   
     {
         "id": 9,
-        "nombre": "MONITOR 32 LED SAMSUNG LS32AG550ELX CURVO GAMER 165HZ",
+        "nombre": "MONITOR 32 LED SAMSUNG LS32AG550ELX CURVO 165HZ",
         "descripcion": "Una frecuencia de actualización más rápida actualiza las imágenes de la pantalla con mayor frecuencia cada segundo, lo que permite un juego más fluido que se mantiene al día incluso con los jugadores más rápidos. La frecuencia de actualización de 165 Hz elimina el retraso y el desenfoque de movimiento para un juego emocionante con una acción ultra suave. Los píxeles de la pantalla cambian de color con una respuesta casi instantánea, lo que permite que la acción de ritmo rápido fluya con la precisión del mundo real. Su rendimiento en pantalla es tan rápido como tus propios reflejos. Jugá por más tiempo. El modo Eye Saver minimiza la luz azul lo suficiente como para mantener los ojos relajados y cómodos cuando se juega durante períodos prolongados. La tecnología Flicker Free elimina continuamente el cansancio e irritante parpadeo de la pantalla para que puedas concentrarte durante más tiempo con menos distracciones o fatiga visual.",
         "categoria": "monitor",
         "imagen": "../imgProductos/monitor_samsung.jpg",
@@ -118,7 +118,7 @@
     },
     {
         "id": 14,
-        "nombre": "PLACA DE VIDEO ASUS ROG STRIX NVIDIA GEFORCE RTX 4090 24GB OC GDDR6X",
+        "nombre": "PLACA DE VIDEO ASUS ROG STRIX NVIDIA GEFORCE RTX 4090 24GB ",
         "descripcion": "Los ventiladores Axial-tech giran sobre baleros de bolas dobles y se han ampliado para impulsar un 23% más de aire a través de la tarjeta, preparando el escenario para temperaturas más bajas, menos ruido y un mayor rendimiento. Una combinación de cámara de vapor y disipador de calor de gran tamaño absorbe eficientemente el calor de la GPU GeForce RTX 4090 para que los tres ventiladores Axial-tech puedan eliminarlo.",
         "categoria": "componente",
         "imagen": "../imgProductos/placa_video.jpg",
@@ -139,7 +139,7 @@
         "nombre": "FUENTE GIGABYTE 850W 80+ GOLD AP850GM AORUS MODULAR",
         "descripcion": "La certificación 80 Plus Gold garantiza una eficiencia del 90% al 50% de carga. La mejor eficiencia energética conduce a menos desperdicio de energía, menos calor y menos ruido del ventilador. Y con el apoyo de los procesadores Intel, ahorrará más energía y más dinero. Diseño 100% modular para que instalés sólo lo que necesitás y optimices el uso de espacios en tu armado. Con componentes de primera calidad para garantizar el mejor rendimiento bajo exigencia.",
         "categoria": "componente",
-        "imagen": "../imgProductos/fuente.jpg",
+        "imagen": "../imgProductos/fuente.png",
         "precio": 109990,
         "stock": 12
     }

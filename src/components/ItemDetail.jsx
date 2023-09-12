@@ -14,10 +14,10 @@ const ItemDetail = ({producto}) => {
         <div className="container my-4">         
             <div className="row align-items-center align-self-center">                
                 <div className="col-md-5 offset-md-1">                    
-                    <img src={item.imagen} alt={item.nombre} className="img-fluid" />
+                    <img src={item.imagen} alt={item.nombre} className="img-fluid"/>
                 </div>
-                <div className="col-md-5">
-                    <h1>{item.nombre}</h1>
+                <div className="col-md-5 text-center">
+                    <h2>{item.nombre}</h2>
                     <p>{item.descripcion}</p>
                     <h3>${item.precio}</h3>                                                                 
                     <ItemCount cantidadInicial={0} stock={item.stock}/>                                      

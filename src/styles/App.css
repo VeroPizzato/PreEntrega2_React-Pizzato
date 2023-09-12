@@ -5,7 +5,7 @@
 
 /* HEADER */
 .container-fluid {
-    background-image: linear-gradient(to right, #868484, #d5d1d1);     
+    background-image: linear-gradient(to right, #868484, #d5d1d1);
     width: 100%;
     left: 0;
     top: 0;
@@ -42,18 +42,18 @@
 }
 
 .btnDetalle:hover {
-    background-color: brown !important;     
-    font-weight: bold;  
+    background-color: brown !important;
+    font-weight: bold;
     font-size: 18px;
 }
 
-.snipper{   
+.snipper{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50vw;
-    
+
 }
 
 .nombreSnipper{
@@ -61,3 +61,4 @@
     font-size: 20px;
     font-weight: bold;
 }
+

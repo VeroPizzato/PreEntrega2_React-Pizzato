@@ -34,9 +34,11 @@ const ItemListContainer = () => {
 
     if (cargando) return <Loading texto={"Cargando Productos.."} /> 
 
-    return (
-        <div className="container my-5">
-            <div className="row my-2">         
+    return (      
+        // my: margin-top y margin-bottom
+        // mx: margin-left y margin-right
+        <div className="my-2 mx-4">
+            <div className="row">         
                  <ItemList items={items} />
             </div>
         </div>
